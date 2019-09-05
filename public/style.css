@@ -3294,6 +3294,13 @@ body {
     text-decoration: none;
     font-size: 3.5vw; }
 
+@font-face {
+  font-family: "Quicksand";
+  src: url("../../assets/fonts/iconsfonts/lg.eot");
+  src: url("../../assets/fonts/iconsfonts/lg.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/iconsfonts/lg.woff") format("woff"), url("../../assets/fonts/iconsfonts/lg.ttf") format("truetype"), url("../../assets/fonts/iconsfonts/lg.svg#Quicksand") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
 html {
   background-color: #3A99D7;
   background-image: radial-gradient(circle, #FFF, #3A99D7); }
