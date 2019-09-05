@@ -1,0 +1,30 @@
+extends ../includes/layout.pug
+include ../includes/components/picture.pug
+include ../includes/components/picture_webp.pug
+include ../includes/components/youtube_video.pug
+block metatags
+  -var title = 'kEnAi NPM Starter Kit'
+  -var description = 'Kit de inicio para desarrollo frontend basado en componentes (Pug, Sass y JS)  y automatizado con Scripts NPM desarrollado por @jonmircha'
+  title= title
+  meta(name="description", content=description)
+  meta(name="application-name", content=title)
+block content
+  main.App
+    p.App-title= title
+    img.App-logo(src="./img/kenai-npm-starter-kit.png")
+    p.App-description= description
+    p.App-title con
+    article.App-logos
+      div
+        img(src="./img/pugjs-logo.svg")
+      div
+        img(src="./img/sass-logo.png")
+      div
+        img(src="./img/js-logo.png")
+    p
+      b
+        a.u-download(href="https://github.com/jonmircha/kenai-npm-starter-kit", target="_blank") #[i.fa.fa-download] Descarga este kit #[i.fa.fa-download]
+    +picture('kitten-small.png', [ ['kitten-large.png', '(min-width: 64em)'], ['kitten-medium.png', '(min-width: 48em)'] ])
+    +pictureWebp('kEnAi')
+    div.App-video
+      +youtubeVideo('nyC6vSwwtEs')
