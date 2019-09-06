@@ -74,5 +74,8 @@
 		"gulp-zip": "^4.2.0",
 		"main-bower-files": "^2.13.1"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"lodash": "^4.17.15",
+		"lodash.template": "^4.5.0"
+	}
 }
