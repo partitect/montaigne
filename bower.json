@@ -1,49 +1,64 @@
 {
-	"name": "montaigne-gulp-starter-pack",
-	"description": "Frontend Starter Kit with Gulp for either Themeforest Projects or customizable projects.",
-	"main": "gulpfile.js",
-	"authors": [ "telat kaya" ],
-	"license": "MIT",
-	"keywords": [
-		"gulp",
-		"pug",
-		"sass",
-		"scss",
-		"babel",
-		"es6",
-		"ecmascript6",
-		"es6-javascript",
-		"preprocessor",
-		"frontend",
-		"front-end",
-		"front-end-development",
-		"front-end-webdevelopment",
-		"optimize",
-		"minify",
-		"theme",
-		"theme-development",
-		"theme",
-		"themeforest",
-		"starter-kit"
-	],
-	"homepage": "https://github.com/partitect/montaigne",
-	"private": true,
-	"ignore": [ "**/.*", "node_modules", "bower_components", "test", "tests" ],
-	"dependencies": {
-		"fomantic-ui": "^2.7.8",
-		"jquery": "^3.4.1",
-		"bootstrap": "^4.3.1",
-		"lightgallery": "lightGallery#^1.6.12"
-	},
-	"overrides": {
-		"bootstrap": {
-			"main": [
-				"dist/css/bootstrap.min.css",
-				"dist/js/bootstrap.min.js"
-			],
-			"normalize": {
-				"fonts": [ "*.eot", "*.svg", "*.ttf", "*.woff", "*.woff2" ]
-			}
-		}
+  "name": "montaigne-gulp-starter-pack",
+  "description": "Frontend Starter Kit with Gulp for either Themeforest Projects or customizable projects.",
+  "main": "gulpfile.js",
+  "authors": [
+    "telat kaya"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "pug",
+    "sass",
+    "scss",
+    "babel",
+    "es6",
+    "ecmascript6",
+    "es6-javascript",
+    "preprocessor",
+    "frontend",
+    "front-end",
+    "front-end-development",
+    "front-end-webdevelopment",
+    "optimize",
+    "minify",
+    "theme",
+    "theme-development",
+    "theme",
+    "themeforest",
+    "starter-kit"
+  ],
+  "homepage": "https://github.com/partitect/montaigne",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fomantic-ui": "^2.7.8",
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1",
+    "lightgallery": "lightGallery#^1.6.12",
+    "Font-Awesome": "^5.10.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ],
+      "normalize": {
+        "fonts": [
+          "*.eot",
+          "*.svg",
+          "*.ttf",
+          "*.woff",
+          "*.woff2"
+        ]
+      }
 	}
+  }
 }
