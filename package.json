@@ -75,7 +75,7 @@
 		"main-bower-files": "^2.13.1"
 	},
 	"dependencies": {
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.21",
 		"lodash.template": "^4.5.0"
 	}
 }
